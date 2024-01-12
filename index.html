@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password strength checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Check the strength of your password</h1>
+    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="svg svg-1">
+        <path fill="#FFFFFF" d="M40.4,-38.9C51,-29.7,57.5,-14.8,57.9,0.4C58.3,15.6,52.6,31.3,41.9,45.3C31.3,59.4,15.6,71.9,2.1,69.7C-11.3,67.6,-22.7,50.8,-34.1,36.7C-45.5,22.7,-57,11.3,-60.2,-3.2C-63.3,-17.7,-58.2,-35.4,-46.8,-44.6C-35.4,-53.7,-17.7,-54.4,-1.4,-53C14.8,-51.6,29.7,-48,40.4,-38.9Z" transform="translate(100 100)" />
+    </svg>
+    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="svg svg-2">
+        <path fill="#FFFFFF" d="M53.2,-52.4C68.2,-38.3,78.9,-19.2,77.1,-1.8C75.2,15.5,60.8,30.9,45.9,43.4C30.9,55.9,15.5,65.3,-1.1,66.4C-17.6,67.5,-35.3,60.2,-46,47.7C-56.7,35.3,-60.5,17.6,-63.4,-2.9C-66.2,-23.4,-68.1,-46.7,-57.4,-60.8C-46.7,-74.8,-23.4,-79.6,-2.1,-77.5C19.2,-75.4,38.3,-66.4,53.2,-52.4Z" transform="translate(100 100)" />
+    </svg>
+    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="svg svg-3">
+        <path fill="#FFFFFF" d="M25.4,-29.1C30.8,-25.7,31.6,-15.7,31.8,-6.8C32,2.2,31.7,10.2,29.6,20.3C27.6,30.4,23.8,42.7,14.6,50.7C5.4,58.6,-9.2,62,-15.4,54.5C-21.6,47,-19.3,28.4,-27.4,15.3C-35.5,2.3,-54,-5.3,-58.3,-15.3C-62.5,-25.4,-52.5,-38,-40.4,-40.3C-28.3,-42.5,-14.2,-34.3,-2.1,-31.8C10,-29.3,20,-32.5,25.4,-29.1Z" transform="translate(100 100)" />
+    </svg>
+    <div class="main">
+        <div class="input">
+            <label for="textbox">Type your password here</label>
+            <input type="text" placeholder="Your password" required id="password">
+            <button id = "check">Check</button>
+        </div>
+        <div class="out">
+            <h2>Result</h2>
+            <p id="output">
+            </p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

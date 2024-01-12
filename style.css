@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+    background-color: #F4D6FD;
+    color: rgb(53, 43, 53);
+}
+
+h1{
+    text-align: center;
+    margin: 5rem 0;
+    margin-bottom: 3rem;
+}
+
+.main{
+    border: 2px solid white;
+    display: flex;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3rem;
+    background: rgba( 255, 255, 255, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 8px );
+    border-radius: 10px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.out{
+    padding: 10px;
+    width: 50%;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+label{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+#password{
+    max-width: 90%;
+    margin-left: 5px;
+    padding: 10px;
+    border: 2px solid white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 26px;
+}
+
+#check{
+    max-width: 40%;
+    margin-left: 5px;
+    padding: 8px;
+    margin-top: 7px;
+    border-radius: 26px;
+    background-color: rgb(219, 238, 254);
+    font-size: 16px;
+    font-weight: 700;
+    border: 2px solid rgb(219, 238, 254);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+#check:hover{
+    cursor: pointer;
+    background-color: rgb(52, 145, 221);
+    border: 2px solid rgb(52, 145, 221);
+    color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transform: translateY(-3px);
+}
+
+.svg{
+    width: 400px;
+    position: absolute;
+    z-index: -1;
+}
+
+.svg-1{
+    left: 60%;
+}
+
+.svg-2{
+    top: 10%;
+    left: 10%
+}
+
+.svg-3{
+    width: 500px;
+    top: -50px;
+    left: 35%;
+}
