@@ -13,6 +13,30 @@ checkbtn.addEventListener("click", () => {
   output.innerText = `Your password, ${password} is ${result}.`;
 });
 
+// async function isPasswordCommon(password) {
+//   try {
+//     await fetch("./pass_data.json")
+//       .then((result) => result.json())
+//       .then((data) => {
+//         let res = false;
+//         for (let i = 0; i < data.length; i++) {
+//           let pass = data[i];
+//           console.log(pass);
+//           if (password === pass) {
+//             res = true;
+//             break;
+//           }
+//         }
+//       })
+//       .catch((err) => {
+//         console.log("Error", err);
+//       });
+//     return res;
+//   } catch (error) {
+//     console.error("Error:", error);
+//   }
+// }
+
 function contents(password) {
   let content = [0, 0, 0, 0];
   for (let i = 0; i < password.length; i++) {
